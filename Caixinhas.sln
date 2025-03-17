@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caixinhas.Infra.IoC", "Caix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caixinhas.WebUI", "Caixinhas.WebUI\Caixinhas.WebUI.csproj", "{5C7397F1-0D68-423E-AB3E-11327067360F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caixinhas.API", "Caixinhas.API\Caixinhas.API.csproj", "{3E568D76-D010-47EA-97BA-833F737EC46E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5C7397F1-0D68-423E-AB3E-11327067360F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7397F1-0D68-423E-AB3E-11327067360F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7397F1-0D68-423E-AB3E-11327067360F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E568D76-D010-47EA-97BA-833F737EC46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E568D76-D010-47EA-97BA-833F737EC46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E568D76-D010-47EA-97BA-833F737EC46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E568D76-D010-47EA-97BA-833F737EC46E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

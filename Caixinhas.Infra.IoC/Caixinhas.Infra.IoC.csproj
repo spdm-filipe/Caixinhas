@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Caixinhas.Application\Caixinhas.Application.csproj" />
+    <ProjectReference Include="..\Caixinhas.Domain\Caixinhas.Domain.csproj" />
+    <ProjectReference Include="..\Caixinhas.Infra.Data\Caixinhas.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
