@@ -9,7 +9,7 @@ public class CaixaLancamento : Entity
     public int IdUsuarioLancamento { get; private set; }
     public decimal Valor { get; private set; }
     public string Descricao { get; private set; } = string.Empty;
-
+    public DateTime DataLamento { get; set; }
 
     public void Update(int idCaixa, int idUsuario, decimal valor,
         string descricao)

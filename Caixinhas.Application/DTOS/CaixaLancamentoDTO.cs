@@ -19,4 +19,6 @@ public class CaixaLancamentoDTO
     [MinLength(5)]
     [MaxLength(200)]
     public string Descricao { get; private set; } = string.Empty;
+
+    public DateTime DataLamento { get; set; }
 }

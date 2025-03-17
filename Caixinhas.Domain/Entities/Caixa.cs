@@ -11,8 +11,7 @@ public class Caixa : Entity
     public string  Descricao { get; private set; } =string.Empty;
     public DateTime Prazo { get; private set; }
     public int IdUsuario { get; private set; }
-
-
+    public IEnumerable<CaixaLancamento> Lancamentos { get; set; }
     public Caixa(int idUsuario, decimal valorAtual, decimal valorMaximo,
         string descricao, DateTime prazo)
     {
@@ -24,6 +23,11 @@ public class Caixa : Entity
     {
         ValidateDomin(valorAtual, valorMaximo, descricao, prazo);
     }
+
+    public void Delete()
+    {
+        IsAtivo = false;
+    }   
 
     private void ValidateDomin(decimal valorAtual, decimal valorMaximo, string descricao,
        DateTime prazo)
