@@ -12,6 +12,7 @@ public class Caixa : Entity
     public DateTime Prazo { get; private set; }
     public int IdUsuario { get; private set; }
 
+
     public Caixa(int idUsuario, decimal valorAtual, decimal valorMaximo,
         string descricao, DateTime prazo)
     {
@@ -19,7 +20,7 @@ public class Caixa : Entity
         IdUsuario = idUsuario;
     }
     public void Update(int valorAtual, int valorMaximo, string descricao,
-        string prazo)
+        DateTime prazo)
     {
         ValidateDomin(valorAtual, valorMaximo, descricao, prazo);
     }
